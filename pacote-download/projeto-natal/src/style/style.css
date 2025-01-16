@@ -1,7 +1,9 @@
+/* ALL */
+
 body {
     background-color: #a91e21;
     text-align: center;
-    background-image: url(assets/snowman-bg-300.png);
+    background-image: url(../assets/imgs/snowman-bg-300.png);
     font-family: 'Mountains of Christmas', serif;
     font-size: larger;
 }
@@ -28,6 +30,8 @@ body {
     background: #243818; 
   }
 
+/* HEADER */
+
 h1 {
     color: #f8ae3e;
     background-color: #43672ce2;
@@ -46,6 +50,8 @@ h2 {
     text-shadow: rgba(0, 0, 0, 0.364) 5px 5px 5px;
 }
 
+/* MAIN */
+
 section {
     background-color: #f0e0be;
     text-align: center;
@@ -59,19 +65,21 @@ section {
 
 ol {
     list-style-type: upper-roman ;
-    list-style-image: url(assets/xmas-tree.png);
+    list-style-image: url(../assets/imgs/xmas-tree.png);
     text-shadow: rgba(0, 0, 0, 0.315) 5px 5px 5px;
 }
 
 ul {
     list-style-type: disc;
-    list-style-image: url(assets/gift-box.png);
+    list-style-image: url(../assets/imgs/gift-box.png);
     font-weight: bold;
 }
 
 li {
     text-align: left;
 }
+
+/* FOOTER */
 
 footer {
     margin-top: 20px;
