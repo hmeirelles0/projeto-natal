@@ -1,0 +1,89 @@
+body {
+    background-color: #a91e21;
+    text-align: center;
+    background-image: url(assets/snowman-bg-300.png);
+    font-family: 'Mountains of Christmas', serif;
+    font-size: larger;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.12); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #43672c; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #243818; 
+  }
+
+h1 {
+    color: #f8ae3e;
+    background-color: #43672ce2;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+h1 > ins {
+    text-decoration: none;
+}
+
+h2 {
+    color: #A91E21;
+    text-shadow: rgba(0, 0, 0, 0.364) 5px 5px 5px;
+}
+
+section {
+    background-color: #f0e0be;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.545) 5px 5px 5px;
+    margin-top: 10px;
+}
+
+ol {
+    list-style-type: upper-roman ;
+    list-style-image: url(assets/xmas-tree.png);
+    text-shadow: rgba(0, 0, 0, 0.315) 5px 5px 5px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-image: url(assets/gift-box.png);
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    font-size: 1.2em;
+    text-decoration: underline;
+}
